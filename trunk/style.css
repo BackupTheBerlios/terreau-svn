@@ -1,0 +1,53 @@
+/* Terreau, a set of various PHP libraries.
+Copyright (C) 2005-2006  Nayco.
+
+ (Please read the COPYING file)
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA. */
+
+/* Common */
+body {
+  font-family: "arial", sans-serif;
+  font-size: 80%;
+}
+
+/* Error reporting */
+div.error_block {
+  padding: 1em;
+  background: #FFFFFF;
+}
+div.events_block h2 {
+  border-bottom: 1px solid black;
+  color: black;
+}
+div.events_block h3 {
+  color: #FF6666;
+}
+div.events_block dl{
+  border: 1px solid #FF6666;
+  padding: 1em;
+  background: #FFCCCC;
+}
+div.events_block dt {
+  color: gray;
+}
+div.events_block dt strong{
+  text-decoration: underline;
+  color: black;
+}
+div.events_block dd {
+  font-style: italic;
+  margin-bottom: 1em;
+}
